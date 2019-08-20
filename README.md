@@ -848,6 +848,7 @@ export default class FilterObject extends Component {
           name: 'Jimmy Joe',
           title: 'Hack0r',
           age: 12,
+        
         },
         {
           name: 'Jeremy Schrader',
@@ -1318,7 +1319,7 @@ Let's begin by rendering our component's outline.
         <span className="resultsBox"></span>
       </div>
     )
-  }
+  } 
 ```
 
 Now that we have a rough draft of everything our component will need, let's start filling in the functionality. We will use state to keep track of two numbers the user gives us and the sum of those two numbers.
