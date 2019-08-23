@@ -8,8 +8,8 @@ class Palindrome extends Component {
             palindrome: ''
         }
     }
-    handleEvent (val) {
-        this.setState({userValue: val})
+    handleChange (val) {
+        this.setState({userInput: val})
     }
     isPalindrome (userInput) {
         let forwards = userInput;

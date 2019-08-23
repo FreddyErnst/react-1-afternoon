@@ -27,7 +27,7 @@ class FilterString extends Component {
         return (
             <div className="puzzleBox filterStringPB">
                 <h4> Filter String</h4>
-                <span className="puzzleBox"> Names: {JSON.stringify(this.state.name, null, 10)}</span>
+                <span className="puzzleText"> Names: {JSON.stringify(this.state.names, null, 10)}</span>
                 <input className="inputLine" onChange={(e) => this.handleEvent(e.target.value)}></input>
                 <button className="confirmationBox" onClick={() => this.filterNames(this.state.userInput)}> Filter </button>
                 <span className="resultsBox filterStringPB"> Filtered Names: {JSON.stringify(this.state.filteredNames, null, 10)}</span>
